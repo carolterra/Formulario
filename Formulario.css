@@ -1,0 +1,121 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+#titulo{
+    font-family:helvetica;
+    color:rgb(12, 69, 17);
+    margin-left: 4%;
+}
+
+#subtitulo{
+    font-family:helvetica;
+    color:rgb(12, 69, 17);
+    margin-left:10%;
+} 
+
+#check{
+    display: inline-block;
+    color: rgb(12, 69, 17);
+}
+
+fieldset{
+    border:0;
+}
+
+body{
+    background-image: url(pizza-clipart-chef.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-color: #880f0f;
+    font-family: helvetica;
+    font-size: 1em;
+    color: rgb(12, 69, 17);
+    margin-left: 36%;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+input,select,textarea,button{
+    font-family: helvetica;
+    font-size: 1em;
+    color: rgb(12, 69, 17);
+    border-radius: 5px;
+}
+
+.grupo:before, .grupo:after {
+    display: table;
+}
+
+.grupo:after {
+    clear: both;
+}
+
+.campo{
+    margin-bottom: 1em;
+}
+
+.campo label{
+    margin-bottom: 0.2em;
+    color: rgb(12, 69, 17);
+    display: block;
+}
+
+fieldset.grupo.campo{
+    float: left;
+    margin-left: 1em;
+}
+
+.campo input[type="text"],.campo input[type="tel"],.campo input[type="email"],.campo select,.campo textarea{
+    padding: 0.2em;
+    border: 1px solid #b5a817;
+    box-shadow: 2px 2px 2px rgb(0,0,0,0,2);
+    display: block;
+}
+
+.campo select option{
+    padding-right: 1em;
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus{
+    background: #ffffff;
+}
+
+.botao{
+    font-size: 1.2em;
+    background: rgb(12, 69, 17);
+    border: 0;
+    margin-bottom: 1em;
+    color: white;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0,2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0,5);
+    position: absolute;
+    top: 125%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.botao:hover{
+    background: rgb(25, 136, 35);
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0,2);
+    text-shadow: none;
+}
+
+.botao, select{
+    cursor: pointer;
+}
+
+.square {
+    width: 30rem;
+    height: 60rem;
+    background: rgba(255, 255, 255, 0.372);
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
